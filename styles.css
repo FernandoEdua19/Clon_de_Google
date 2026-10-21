@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#barra_busqueda {
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding: 6px 15px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+#barra_busqueda:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+    transition: box-shadow 0.2s;
+}
+
+#barra {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+img {
+    max-width: 272px;
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+#botones button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;;
+    color: #3c4043;
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#botones button:hover {
+    background-color: #f8f9fa;
+    border: 1px solid #c6c6c6;
+    color:#202124;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.material-icons {
+    color: #9aa0a6;
+    font-size: 20px;
+}
+
+#mic:hover {
+    color: #202124;
+    transition: all 0.2s;
+    cursor: pointer;
+}
